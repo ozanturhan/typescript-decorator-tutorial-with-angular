@@ -1,0 +1,16 @@
+<table class="table">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>User Name</th>
+    <th>email</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr [routerLink]="['user', user.id]" *ngFor="let user of users">
+    <td>{{ user.name }}</td>
+    <td>{{ user.username }}</td>
+    <td>{{ user.email }}</td>
+  </tr>
+  </tbody>
+</table>
