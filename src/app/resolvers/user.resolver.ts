@@ -8,8 +8,6 @@ import {UserModel} from '../models';
 export class UserResolver implements Resolve<UserModel> {
   constructor(private userService: UserService) {}
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<UserModel> {
-    console.log(route.params);
     return this.userService.getUser(route.params.id);
   }
-
 }
