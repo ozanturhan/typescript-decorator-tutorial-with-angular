@@ -1,8 +1,8 @@
 # Typescript Decorator Tutorial With Angular
 
-[Typescript Decorator Nedir?](https://github.com/angular/angular-cli)
+[Typescript Decorator Nedir?](https://medium.com/@ozanturhan/typescript-decorator-nedir-ab95c13f891)
 adlı yazımı okuyabilir,
-[Stackblitz]() üzerinden örnek kodu inceleyebilirsiniz.
+[Stackblitz](https://stackblitz.com/edit/typescript-decorator-tutorial-with-angular) üzerinden örnek kodu inceleyebilirsiniz.
 
 # Install
 
